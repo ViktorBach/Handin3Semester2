@@ -2,6 +2,7 @@ import `1`.Article
 import `2`.FastFood
 import `2`.Pizza
 import `2`.Sandwich
+import `3`.Mazda
 
 fun main () {
     // 1. Articles
@@ -25,4 +26,10 @@ fun main () {
     for (restaurant in arrayOfFastFood) {
         println(restaurant.fryFries())
     }
+
+    // 3. Vehicle
+    val mx5: Mazda = Mazda(30, 20, "red", 1)
+    println(mx5.changeGear(30))
+    println(mx5.applyBrakes(30))
+    println(mx5.speedUp(30))
 }

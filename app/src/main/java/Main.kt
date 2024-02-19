@@ -1,3 +1,5 @@
+import `1`.Article
+
 fun main () {
     val article1: Article = Article("James", "Webdesign in 2024")
     val article2: Article = Article("Lars", "Drumming on stage")

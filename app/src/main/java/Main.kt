@@ -5,6 +5,7 @@ import `2`.Sandwich
 import `3`.Mazda
 import `4`.RedditFrontPage
 import `4`.RedditPost
+import `5`.findRepeatingElement
 
 fun main () {
     // 1. Articles
@@ -53,4 +54,7 @@ fun main () {
     // 4.5 Reddit Front Page
     val redditFrontPage: RedditFrontPage = RedditFrontPage(mutableListOf(redditPost1, redditPost2, redditPost3, redditPost4, redditPost5))
     println(redditFrontPage.deleteRedditPost())
+
+    // 5 Word Frequency
+    findRepeatingElement(listOf("apple", "banana", "apple", "orange", "banana", "apple", "orange", "banana", "apple","banana", "apple", "orange", "banana","banana", "apple", "orange", "apple", "orange", "banana"))
 }
